@@ -4,7 +4,8 @@
   "description": "Webcam live streaming via WebSockets",
   "main": "index.html",
   "scripts": {
-    "start": "http-server",
+    "start": "http-server -o http://localhost:8080/index.html",
+    "start-ml": "http-server -o http://localhost:8080/ml.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
